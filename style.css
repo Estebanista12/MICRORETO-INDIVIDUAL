@@ -1,0 +1,100 @@
+/* Estilo general para toda la página */
+body {
+    background-color: rgb(35, 197, 62); /* Fondo verde */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal centrado */
+#titulo-principal {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Texto urgente */
+.urgente {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Contenedor principal de todas las secciones */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* Centra todo horizontalmente */
+    gap: 30px;             /* Separación entre secciones */
+    padding-bottom: 40px;
+    max-width: 500px;      /* Límite de ancho para la “tarjeta” */
+    margin: 30px auto 0 auto;  /* Centrado horizontal y separación del header */
+}
+
+/* Cada sección como tarjeta encuadrada */
+section {
+    width: 90%;                  /* Ocupa casi todo el ancho */
+    max-width: 800px;            /* Para que no quede gigante */
+    background-color: rgb(35, 197, 62);     /* Fondo de la sección */
+    border: 4px solid black;     /* Borde negro que “encuadra” todo */
+    border-radius: 10px;         /* Bordes redondeados */
+    padding: 20px;
+    text-align: center;          /* Texto centrado dentro de la sección */
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2); /* Sombra para destacar */
+}
+
+/* Artículos individuales dentro de las secciones */
+article {
+    background-color: rgb(255, 255, 255); /* Fondo blanco destacado */
+    color: black;                        /* Texto negro */
+    padding: 20px;                        /* Espacio interno */
+    border: 2px solid black;              /* Borde negro */
+    border-radius: 10px;                   /* Esquinas redondeadas */
+    margin-bottom: 20px;                  /* Separación entre artículos */
+    text-align: center;                   /* Centrado del texto */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Imagen dentro de las secciones */
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Encabezados dentro de las secciones */
+section h2 {
+    margin-bottom: 10px;
+    color: black;                /* H2 negro dentro de la sección */
+}
+
+/* Párrafos dentro de las secciones */
+section p {
+    margin-bottom: 10px;
+    color: black;                /* Todo el texto negro */
+    line-height: 1.4;            /* Espaciado para lectura */
+}
+
+/* Listas dentro de las secciones */
+section ul {
+    list-style: inside disc;
+    color: black;
+    text-align: left;            /* Listas alineadas a la izquierda */
+}
+
+/* Footer centrado */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: rgba(0,0,0,0.1);
+    border-top: 2px solid black; /* Borde negro que lo separa */
+}
+
+
+
