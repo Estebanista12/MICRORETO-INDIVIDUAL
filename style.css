@@ -1,0 +1,100 @@
+
+/* Estilo general para toda la página */
+body {
+    background-color: rgb(35, 197, 62);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal centrado */
+#titulo-principal {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Texto urgente */
+.urgente {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Contenedor principal en HORIZONTAL */
+main {
+    display: flex;
+    flex-direction: row;      /* ← AHORA EN HORIZONTAL */
+    flex-wrap: wrap;          /* ← Permite que bajen si no entran */
+    justify-content: center;  /* ← Centra horizontalmente */
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Cada sección como tarjeta horizontal */
+section {
+    flex: 1 1 300px;          /* ← Tamaño flexible */
+    max-width: 350px;         /* ← Limita ancho de cada tarjeta */
+    background-color: rgb(35, 197, 62);
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Artículos individuales */
+article {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Imagen */
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Encabezados */
+section h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Párrafos */
+section p {
+    margin-bottom: 10px;
+    color: black;
+    line-height: 1.4;
+}
+
+/* Listas */
+section ul {
+    list-style: inside disc;
+    color: black;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: rgba(0,0,0,0.1);
+    border-top: 2px solid black;
+}
+
+
+
